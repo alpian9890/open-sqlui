@@ -1,0 +1,90 @@
+# OS / Editor noise
+.DS_Store
+Thumbs.db
+Icon?
+.Spotlight-V100
+.Trashes
+*.swp
+*.swo
+*.tmp
+*.bak
+*.lock
+.vscode/
+.idea/
+*.code-workspace
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.cache/
+.hypothesis/
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+ruff_cache/
+
+# Packaging / build artifacts
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+wheels/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# Virtual environments / dependency managers
+.venv/
+venv/
+venv.bak/
+env/
+ENV/
+.envrc
+.uv/
+.rye/
+.python-version
+
+# Environment variables / secrets
+.env
+.env.*
+*.env
+*.secret
+*.key
+*.pem
+*.crt
+*.pfx
+secrets.*
+
+# Logs and reports
+*.log
+*.cover
+*.py,cover
+.coverage
+.coverage.*
+coverage/
+htmlcov/
+pytestdebug.log
+
+# Database / runtime data
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+*.sql
+*.pkl
+
+# Documentation artifacts
+site/
+docs/_build/
+
+# Local assets that should stay private
+*.local
+*.cache
+
+# Project-specific
+.testinfra/
+
